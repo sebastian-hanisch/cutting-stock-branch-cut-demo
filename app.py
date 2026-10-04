@@ -294,7 +294,7 @@ ausgewerteten Knoten; kombiniert mit dem Symmetrie-Schnitt reduziert sie die
 Knotenzahl auf manchen Instanzen um mehr als das 150-fache zusätzlich.
 
 **Ehrliche Grenze**: diese kompakte Relaxation bleibt insgesamt schwach
-(bekannter Fakt für Bin Packing, Worst-Case-Verhältnis nahe $n/2$) - die
+(bekannter Fakt für Bin Packing, Worst-Case-Verhältnis nahe $2$) - die
 wirklich starke, Muster-basierte Relaxation (Gilmore-Gomory) kommt erst mit
 Column Generation später in dieser Linie.
 
@@ -322,6 +322,6 @@ st.markdown("---")
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Exakte Suche erklärt: Rucksack und Cutting Stock](https://sebastianhanisch.net/konzepte-exakte-suche.html)."
 )

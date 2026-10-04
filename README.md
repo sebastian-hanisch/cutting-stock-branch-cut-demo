@@ -43,7 +43,7 @@ gut 100 Knoten löst. Gegen Bruteforce exakt geprüft, kein Fund einer
 Abweichung.
 
 **Ehrliche Grenze**: diese kompakte Relaxation bleibt insgesamt schwach
-(bekannter Fakt für Bin Packing, Worst-Case-Verhältnis nahe $n/2$) - die
+(bekannter Fakt für Bin Packing, Worst-Case-Verhältnis nahe $2$) - die
 wirklich starke, Muster-basierte Relaxation (Gilmore-Gomory) kommt erst mit
 Column Generation später in dieser Linie.
 
@@ -103,6 +103,4 @@ pytest tests/ -v
 
 ---
 
-Teil des [Operations-Research-Demo-Portfolios](https://sebastianhanisch.net/demos.html) von
-[Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
-Interesse an einer maßgeschneiderten Lösung? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Exakte Suche erklärt: Rucksack und Cutting Stock](https://sebastianhanisch.net/konzepte-exakte-suche.html).

@@ -38,7 +38,7 @@ def lp_bound(instance, pieces, depth, bins):
     in manche offene Bins passt, in andere nicht. Per Prototyp verifiziert: über
     einen breiten Sweep übertrifft diese Schranke `weak_bound` an ~22% der
     ausgewerteten Knoten. Bleibt trotzdem insgesamt eine schwache Schranke
-    (bekannter Fakt für Bin Packings kompakte Formulierung, Worst-Case nahe n/2)
+    (bekannter Fakt für Bin Packings kompakte Formulierung, Worst-Case-Verhältnis nahe 2)
     - die wirklich starke, Muster-basierte Relaxation kommt erst mit Column
     Generation später in dieser Linie."""
     remaining = pieces[depth:]
