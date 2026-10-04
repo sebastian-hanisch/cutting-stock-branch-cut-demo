@@ -296,7 +296,7 @@ Knotenzahl auf manchen Instanzen um mehr als das 150-fache zusätzlich.
 **Ehrliche Grenze**: diese kompakte Relaxation bleibt insgesamt schwach
 (bekannter Fakt für Bin Packing, Worst-Case-Verhältnis nahe $2$) - die
 wirklich starke, Muster-basierte Relaxation (Gilmore-Gomory) kommt erst mit
-Column Generation später in dieser Linie.
+Column Generation (`column-generation-demo`, sechstes Stück dieser Linie).
 
 **Warum die Kombination beweisbar nie schlechter ist**: anders als beim
 Symmetrie-Schnitt (der die Verzweigungs*struktur* ändert, weshalb dessen
